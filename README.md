@@ -1,5 +1,7 @@
 # Tor Onion Service with Docker Compose and Lighttpd
 
+---> http://vofb55e2u4jxv2nst7bmdz7gpflzm2vpwmn4uv6x2rdlqdmyoo7yk2qd.onion/
+
 This project is a simple way to publish a static website as a Tor onion service using Docker Compose and Lighttpd. The goal is to keep the setup small, understandable, and easy to maintain: Tor handles the onion service, Lighttpd serves the site, and the website files live in a local folder on the host machine so they can be edited directly without rebuilding the containers.
 
 It is not meant to be a production platform with automation, orchestration, or advanced hardening out of the box. It is a clean starting point for anyone who wants to understand how a minimal onion site works and get one online quickly.
